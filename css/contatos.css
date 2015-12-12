@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.card {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	position: relative;
+	margin: 5em;
+	width: 0.5em;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	margin: 20px auto;
+}
+
+div#caixa {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 4em;
+	left: 0;
+	background: #FFFFFF;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+	opacity: 0.6;
+	/*border-radius: 40px;*/
+	
+}
+
+div#caixa2 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 4em;
+	left: 0;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+	/*border-radius: 40px;*/
+}
+
+div#caixa2:hover {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 4em;
+	left: 0;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+	/*border-radius: 40px;*/
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9));
+}
+
+div#caixa2 img {
+	border-radius: 10em;
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+	margin-left: 0.8em;
+	margin-top: 0.6em;
+	height: 7.5em;
+}
+
+div#profile {
+	display: inline-block;
+	width: 120px;
+	height: 154px;
+	position: absolute;
+	top: 2em;
+	right: 13em;
+}
+
+div#profile h2 {
+	font-size: 16pt;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 8px;
+}
+
+p#textoInfor {
+	font-size: 14pt;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 1px;
+	width: 30em;
+}
+
+/*Card 2
+ */
+
+div#caixaCard2 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 15em;
+	left: 0;
+	background: #FFFFFF;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+	opacity: 0.6;
+}
+
+div#caixa2Card2 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 15em;
+	left: 0;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+}
+
+div#caixa2Card2:hover {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 15em;
+	left: 0;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9));
+}
+
+div#caixa2Card2 img {
+	border-radius: 10em;
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+	margin-left: 0.8em;
+	margin-top: 0.6em;
+	height: 7.5em;
+}
+
+/*Card 3
+ */
+
+div#caixaCard3 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 26em;
+	left: 0;
+	background: #FFFFFF;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+	opacity: 0.6;
+}
+
+div#caixa2Card3 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 26em;
+	left: 0;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+}
+
+div#caixa2Card3:hover {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	top: 26em;
+	left: 0;
+	text-align: center;
+	z-index: 4;
+	text-align: left;
+	width: 30em;
+	height: 9em;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9));
+}
+
+
+div#caixa2Card3 img {
+	border-radius: 10em;
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+	margin-left: 0.8em;
+	margin-top: 0.6em;
+	height: 7.5em;
+}
+

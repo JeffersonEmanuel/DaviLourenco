@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+#header {
+	position: fixed;
+	z-index: 10000;
+	color:#FFFFFF;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #000000;
+	background: rgba(0, 0, 0, 0.95);
+	height: 3em;
+	line-height: 3em;
+	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+}
+
+#header h2 {
+	
+	margin: 0;
+	margin-left: 20%;
+	color: #000000;
+	text-shadow:#FFF 1px -1px, #FFF -1px 1px, #FFF 1px 1px, #FFF -1px -1px;
+
+}
+
+#logo {
+	position: absolute;
+	left: 1em;
+	top: 0;
+	height: 3em;
+	line-height: 3em;
+	letter-spacing: -1px;
+	color: #FFFFFF;
+}
+
+#logo a {
+	font-size: 1.25em;
+}
+
+#nav {
+	position: absolute;
+	right: 20%;
+	top: 0;
+	height: 3em;
+	line-height: 3em;
+}
+
+#nav ul {
+	margin: 0;
+}
+
+#nav ul li {
+	display: inline-block;
+	margin-left: 0.5em;
+	font-size: 0.9em;
+}
+
+#nav ul li a {
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 2em;
+	line-height: 2em;
+	padding: 0 0.5em 0 0.5em;
+	outline: 0;
+}
+
+#intro {
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: top left, bottom center;
+	background-repeat: repeat, no-repeat;
+	right: 25%;
+}
+
+
+
+body {
+    background-image: url("../imagens/capa.jpg");
+   	 background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    padding-top: 3em;
+    
+}
+
+#nav ul li audio {
+	color: #FFFFFF;
+	height: 1.4em;
+}
+
+.im_wrapper div{
+	left:-500px;
+	width:125px;
+	height:125px;
+	position:absolute;
+	background-repeat:no-repeat;
+	background-color:#fff;
+	cursor:pointer;
+	-moz-box-shadow:1px 1px 3px #000;
+	-webkit-box-shadow:1px 1px 3px #000;
+	box-shadow:1px 1px 3px #000;
+}
+.im_wrapper div img{
+	float:left;
+	width:115px;
+	height:115px;
+	margin:5px 0px 0px 5px;
+}
+
+
+.im_loading{
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-35px 0px 0px -35px;
+	background:#fff url(../images/loader.gif) no-repeat center center;
+	width:70px;
+	height:70px;
+	z-index:9999;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	-moz-box-shadow:1px 1px 3px #000;
+	-webkit-box-shadow:1px 1px 3px #000;
+	box-shadow:1px 1px 3px #000;
+	opacity:0.7;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+.im_next,
+.im_prev{
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom:50%;
+	margin-top:-25px;
+	cursor:pointer;
+	opacity:0.7;
+	z-index:1000;
+	-moz-box-shadow:0px 0px 3px #000;
+	-webkit-box-shadow:0px 0px 3px #000;
+	box-shadow:0px 0px 3px #000;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+.im_next:hover,
+.im_prev:hover
+{
+	opacity:0.9;
+}
+.im_next{
+	background:#fff url(../images/next.png) no-repeat center center;
+	right:-50px; /*10 to show*/
+}
+.im_prev{
+	background:#fff url(../images/prev.png) no-repeat center center;
+	left:-50px; /*10 to show*/
+}
+
+
+#suaMusica {
+	position: absolute;
+	height: 93%;
+	width: 100%;
+	left: 0;
+	
+}
+
+
+#contatos_esquerdo {
+    border: 1px solid black;
+    opacity: 0.6;
+	position: absolute;
+	right: 15%;
+	top: 15%;
+	line-height: 30em;
+	width: 30em;
+	background-color: #FFFFFF;
+}
+
+#contatos_esquerdo p{
+ color: #000000;
+}
+
